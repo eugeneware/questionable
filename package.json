@@ -1,0 +1,32 @@
+{
+  "name": "questionable",
+  "version": "1.0.0",
+  "description": "Suggest english questions based on a given keywords",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eugeneware/questionable"
+  },
+  "keywords": [
+    "question",
+    "google",
+    "suggest",
+    "blog",
+    "title"
+  ],
+  "author": "Eugene Ware <eugene@noblesamurai.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/eugeneware/questionable/issues"
+  },
+  "dependencies": {
+    "after": "^0.8.1",
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {
+    "tape": "~2.3.2"
+  }
+}
