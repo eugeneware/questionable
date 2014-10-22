@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "after": "^0.8.1",
+    "suggestion": "^1.0.0",
     "uniq": "^1.0.1"
   },
   "devDependencies": {
