@@ -54,3 +54,28 @@ questionable('productivity', function (err, titles) {
   */
 });
 ```
+
+## Overriding the prefixes
+
+Questionable uses a series of prefixes to elicit questions. You can override
+these by passing the `prefixes` variable to the `opts` argument:
+
+``` js
+var questionable = require('questionable');
+questionable('productivity', { prefixes: ['what'] }, function (err, titles) {
+  if (err) throw err;
+  console.log(titles);
+  /*
+  [ 'what is employee productivity',
+    'what is labour productivity',
+    'what is marginal productivity',
+    'what is multifactor productivity',
+    'what is primary productivity',
+    'what is productivity improvement',
+    'what is productivity index',
+    'what is productivity software',
+    'what is the definition of productivity',
+    'what is total factor productivity' ]
+  */
+});
+```
