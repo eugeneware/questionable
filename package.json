@@ -1,6 +1,6 @@
 {
   "name": "questionable",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Suggest english questions based on a given keywords",
   "main": "index.js",
   "scripts": {
