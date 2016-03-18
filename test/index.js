@@ -37,7 +37,6 @@ it('should be able to override the prefixes', function(t) {
   t.plan(1);
   questionable('productivity', { prefixes: ['what'] }, function (err, titles) {
     if (err) throw err;
-    console.log(titles);
     t.assert(titles.length > 5 && titles.length < 100);
   });
 });
