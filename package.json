@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "after": "^0.8.1",
-    "suggestion": "^2.0.0",
+    "suggestion": "^2.1.1",
     "uniq": "^1.0.1",
     "xtend": "^4.0.1"
   },
