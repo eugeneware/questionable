@@ -17,11 +17,11 @@ it('should be able to suggest some youtube titles', function(t) {
   t.plan(2);
   questionable('productivity', { client: 'youtube' }, function (err, titles) {
     if (err) throw err;
-    t.assert(titles.length > 100);
+    t.assert(titles.length > 10);
   });
   questionable('dog training', { client: 'youtube' }, function (err, titles) {
     if (err) throw err;
-    t.assert(titles.length > 100);
+    t.assert(titles.length > 10);
   });
 });
 
