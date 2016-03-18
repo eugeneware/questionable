@@ -4,7 +4,7 @@
   "description": "Suggest english questions based on a given keywords",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/tape test/*.js"
+    "test": "tape test/*.js && browserify test/*.js | tape-run"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,8 @@
     "xtend": "^4.0.1"
   },
   "devDependencies": {
-    "tape": "~2.3.2"
+    "browserify": "^13.0.0",
+    "tape": "^4.5.1",
+    "tape-run": "^2.1.3"
   }
 }
